@@ -47,7 +47,7 @@ Everything lives in a single `index.html` file. Dependencies are loaded from CDN
 | [markdown-it](https://github.com/markdown-it/markdown-it) | 14.1.1 | Markdown parsing and rendering |
 | [KaTeX](https://katex.org) | 0.16.28 | LaTeX math rendering |
 | [highlight.js](https://highlightjs.org) | 11.11.1 | Syntax highlighting |
-| [markdown-it-texmath](https://github.com/user/markdown-it-texmath) | 1.0.0 | Bridges markdown-it and KaTeX |
+| [markdown-it-texmath](https://github.com/goessner/markdown-it-texmath) | 1.0.0 | Bridges markdown-it and KaTeX |
 
 Plus markdown-it plugins for footnotes, task lists, definition lists, sub/superscript, abbreviations, emoji, containers, ins, mark, and multiline tables.
 
