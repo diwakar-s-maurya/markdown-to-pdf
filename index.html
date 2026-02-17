@@ -572,8 +572,8 @@ That's a great idea! :tada: :rocket: :+1:
     render();
   }
 
-  // Render on load (in case browser restores textarea content)
-  render();
+  // Load sample on first visit
+  if (!editor.value) loadSample();
 
   // ---------- Print settings (customizable from console) ----------
   window.printSettings = {
